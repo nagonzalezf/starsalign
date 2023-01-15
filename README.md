@@ -8,11 +8,11 @@ The package also contains ```ultra_align()``` and ```ultra_diff()``` functions f
 
 Examples of this package usage can be found inside the folder examples: https://github.com/nagonzalezf/starsalign/tree/main/examples
 
-The lastest package version is ```1.0.7.```
+The lastest package version is ```1.0.11```.
 
 | Reference Image  | Science Image | Raw Difference Image |
 | ------------- | ------------- | ------------- |
-| <img src="examples/example_2_outputs/001_ref_image.png" width="240">  | <img src="examples/example_2_outputs/002_science_image.png" width="240">  | <img src="examples/example_2_outputs/003_raw_diff_image.png" width="240">  |
+| <img src="https://drive.google.com/file/d/1JoFfHL9ehoaQlHn1C1zJjq0yNZkD3D_u/view?usp=share_link" width="240">  | <img src="examples/example_2_outputs/002_science_image.png" width="240">  | <img src="examples/example_2_outputs/003_raw_diff_image.png" width="240">  |
 
 | Reference Image  | Aligned Science Image | Aligned Difference Image |
 | ------------- | ------------- | ------------- |
