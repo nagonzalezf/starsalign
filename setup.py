@@ -27,11 +27,19 @@ setup(
         "Source Code": "https://github.com/nagonzalezf/starsalign",
     },
     classifiers=[
+        "Intended Audience :: Developers",
+        "Intended Audience :: Science/Research",
         "License :: OSI Approved :: MIT License",
+        "Natural Language :: English",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.10",
-        "Programming Language :: Python :: 3.10.8",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Topic :: Scientific/Engineering",
+        "Topic :: Scientific/Engineering :: Astronomy",
+        "Topic :: Scientific/Engineering :: Image Processing",
+        
     ],
     install_requires=[
         "numpy",
