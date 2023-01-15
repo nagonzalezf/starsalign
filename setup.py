@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 PATH = os.path.abspath(os.path.dirname(__file__))
 
-STARSALIGN_PATH = os.path.join(PATH, "starsalign/starsalign.py")
+STARSALIGN_PATH = os.path.join(PATH, "starsalign/__init__.py")
 
 with open(STARSALIGN_PATH, "r") as f:
     for line in f:
@@ -22,9 +22,8 @@ setup(
     keywords="astronomical image alignment difference",
     url="https://github.com/nagonzalezf/starsalign",
     project_urls={
-        "Bug Tracker": "https://github.com/nagonzalezf/starsalign/issues",
-        "Documentation": "https://github.com/nagonzalezf/starsalign/docs",
         "Source Code": "https://github.com/nagonzalezf/starsalign",
+        "Bug Tracker": "https://github.com/nagonzalezf/starsalign/issues",
     },
     classifiers=[
         "Intended Audience :: Developers",
@@ -43,6 +42,6 @@ setup(
     ],
     install_requires=[
         "numpy",
-        "opencv-python==4.7.0"
+        "opencv-python"
     ],
 )
