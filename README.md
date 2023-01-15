@@ -60,7 +60,7 @@ If you want to process multi channel images you have two options:
 
 1. You can use the ```ultra_align()``` and ```ultra_diff()``` functions, these will automatically get rid of the multi channels and perform the calculations over buffer single channel images to finally process and extract the original multi channel images as output.
 
-2. You can get rid of the extra channels yourself performing some pre-processing tasks such as opencv ```cvtColor()``` function or similar methods and then process the images using the default ```align()``` and ```diff()``` functions.
+2. You can get rid of the extra channels yourself performing some pre-processing tasks such as opencv ```cvtColor()``` and ```COLOR_BGR2GRAY``` functions or similar methods and then process the images using the default ```align()``` and ```diff()``` functions.
 
 # Difference Image Analysis (DIA) application examples
 
