@@ -48,5 +48,17 @@ SIFT algorithm docs at: https://docs.opencv.org/4.x/da/df5/tutorial_py_sift_intr
 
 FLANN feature matcher docs at: https://docs.opencv.org/4.x/d5/d6f/tutorial_feature_flann_matcher.html
 
-# Applications
+Wich are the key methods applied
+
+# Difference Image Analysis (DIA) application examples
+
+The main idea behind this technique is to subtract two images of the same portion of the sky, removing all photometrically stable stars, but usually this images are not aligned.
+
+## Dataset
+
+| Reference Image  | Science Image |
+| ------------- | ------------- |
+| <img src="examples/example_1_outputs/001_ref_image.png" width="240">  | <img src="examples/example_1_outputs/002_science_image.png" width="240">  |
+| <img src="images/img_002.png" width="240">  | Bridge Name: Puente Cardenal Raúl Silva Henríquez <br/><br/> Location: Maule River, Constitución, Chile <br/><br/> meter/pixel ratio: 0.68 |
+| <img src="images/img_003.png" width="240">  | Bridge Name: Puente Santa Elvira <br/><br/> Location: Calle-Calle River, Valdivia, Chile <br/><br/> meter/pixel ratio: 0.35 |
 
