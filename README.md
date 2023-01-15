@@ -16,7 +16,7 @@ The lastest package version is ```1.0.11```.
 
 | Reference Image  | Aligned Science Image | Aligned Difference Image |
 | ------------- | ------------- | ------------- |
-| <img src="https://i.ibb.co/hDQhcy7/001-ref-image.png" width="240">  | <img src="https://i.ibb.co/CtHtLbb/004-aligned-image.png">  | <img src="https://i.ibb.co/vPs7zLD/005-diff-image.png" width="240">  |
+| <img src="https://i.ibb.co/hDQhcy7/001-ref-image.png" width="240">  | <img src="https://i.ibb.co/CtHtLbb/004-aligned-image.png" width="240">  | <img src="https://i.ibb.co/vPs7zLD/005-diff-image.png" width="240">  |
 
 ## Important
 
