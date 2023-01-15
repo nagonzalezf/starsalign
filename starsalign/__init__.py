@@ -2,30 +2,29 @@
 StarsAlign
 ==========
 
-A package for aligning and diffing astronomical images.
+A package for aligning and comparing astronomical images.
 
-Specially developed for aligning and comparing float32 images with a large intensity range typically found in astronomical imaging.
+Specially developed over float32 images with a large intensity range, typically found in astronomical imaging.
 
-This package contains functions that align two single channel images using SIFT and FLANN based matcher, and return the difference image.
+This package contains functions such as ```align()``` and ```diff()```that aligns and compute the difference of two single channel images using SIFT algorithm and FLANN based matcher.
 
 Example:
 ===
     >>> import numpy as np
-    >>> import starsalign
-    >>> ref_image = np.load('ref_image.npy')
-    >>> science_image = np.load('science_image.npy')
-    >>> diff_image = starsalign.diff_images(ref_image, science_image)
-    >>> aligned_image = starsalign.align_images(ref_image, science_image)
+    >>> import starsalign as stal
+    >>>
+    >>> diff_image = stal.diff(ref_image, science_image)
+    >>> aligned_image = stal.align(ref_image, science_image)
 """
 
-__version__ = "1.0.6"
+__version__ = "1.0.7"
 
 import cv2 as cv
 import numpy as np
 
-def align_images(ref_image: np.ndarray, science_image: np.ndarray) -> np.ndarray:
+def align(ref_image: np.ndarray, science_image: np.ndarray) -> np.ndarray:
     """
-    align_images()
+    stal.align()
     ===
     Aligns the science_image to the reference image by finding keypoints and matching them using SIFT algorithm, then finds the homography between the two images, and applies a perspective warp to align the science_image.
     
@@ -38,8 +37,8 @@ def align_images(ref_image: np.ndarray, science_image: np.ndarray) -> np.ndarray
     
     Example:
     ===
-    >>> import starsalign
-    >>> aligned_image = starsalign.align_images(ref_image, science_image)
+    >>> import starsalign as stal
+    >>> aligned_image = stal.align(ref_image, science_image)
     """
     ref_image_uint8 = np.interp(ref_image, (ref_image.min(), ref_image.max()), (0, 255)).astype(np.uint8)
     science_image_uint8 = np.interp(science_image, (science_image.min(), science_image.max()), (0, 255)).astype(np.uint8)
@@ -75,9 +74,9 @@ def align_images(ref_image: np.ndarray, science_image: np.ndarray) -> np.ndarray
     
     return aligned_image
 
-def diff_images(ref_image: np.ndarray, science_image: np.ndarray) -> np.ndarray:
+def diff(ref_image: np.ndarray, science_image: np.ndarray) -> np.ndarray:
     """
-    diff_images()
+    stal.diff()
     ===
     Computes the difference between two single channel images by first aligning them and then subtracting them.
 
@@ -90,9 +89,9 @@ def diff_images(ref_image: np.ndarray, science_image: np.ndarray) -> np.ndarray:
 
     Example:
     ===
-    >>> import starsalign
-    >>> diff_image = starsalign.diff_images(ref_image, science_image)
+    >>> import starsalign as stal
+    >>> diff_image = stal.diff(ref_image, science_image)
     """
-    aligned_image = align_images(ref_image, science_image)
+    aligned_image = align(ref_image, science_image)
     diff_image = ref_image - aligned_image
     return diff_image
