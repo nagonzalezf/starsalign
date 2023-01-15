@@ -55,7 +55,7 @@ Wich are the key methods applied.
 The main idea behind this technique is to subtract two images of the same portion of the sky, removing all photometrically stable stars, but tipically this images are not aligned by default.
 
 ## Example 1 - ```diff()``` function
-## Input Images
+### Input Images
 
 For this example we will use some float32 images of the NGC6569 globular cluster in the constellation Sagittarius.
 
