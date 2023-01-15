@@ -25,3 +25,16 @@ Using setup.py file from root directory
 ```bash
 python setup.py install
 ```
+# Usage examples
+
+Getting the aligned science image using align() function
+```
+>>> import starsalign as stal
+>>> aligned_image = stal.align(ref_image, science_image)
+```
+
+Getting the aligned science image with a more precise alignment using ultra_align() function
+```
+>>> import starsalign as stal
+>>> aligned_image = stal.align(ref_image, science_image)
+```
