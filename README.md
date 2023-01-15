@@ -50,6 +50,18 @@ Getting the aligned science image with a more precise alignment using ```ultra_a
 >>> import starsalign as stal
 >>> aligned_image = stal.ultra_align(ref_image, science_image)
 ```
+# Supported input formats
+
+By default the package is intended to be use over **float 32** single channel images of wide range, but it can also process other formats such as **uint8** images or even binary images.
+
+The ```align()``` and ```diff()``` functions will only support single channel images.
+
+If you want to process multi channel images you have two options:
+
+1. You can use the ```ultra_align()``` and ```ultra_diff()``` functions, these will automatically get rid of the multi channels and perform the calculations over buffer single channel images to finally process and extract the original multi channel images as output.
+
+2. You can get rid of the extra channels yourself performing some pre-processing tasks such as opencv ```cvtColor()``` function or similar methods and then process the images using the default ```align()``` and ```diff()``` functions.
+
 # Difference Image Analysis (DIA) application examples
 
 The main idea behind this technique is to subtract two images of the same portion of the sky, removing all photometrically stable stars, but tipically this images are not aligned by default.
