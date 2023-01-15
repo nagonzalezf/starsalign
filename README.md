@@ -74,4 +74,4 @@ And we get a desired difference result:
 
 | Reference Image  | Aligned Science Image | Difference Image |
 | ------------- | ------------- | ------------- |
-| <img src="examples/example_1_outputs/001_ref_image.png" width="240">  | <img src="examples/example_1_outputs/004_aligned_image.png" width="240">  | <img src="examples/example_1_outputs/005diff_image.png" width="240">  |
+| <img src="examples/example_1_outputs/001_ref_image.png" width="240">  | <img src="examples/example_1_outputs/004_aligned_image.png" width="240">  | <img src="examples/example_1_outputs/005_diff_image.png" width="240">  |
