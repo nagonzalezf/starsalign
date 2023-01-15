@@ -18,11 +18,11 @@ setup(
 
     author="Nicolas Antonio Gonzalez Figueroa",
     author_email="nagonzalezf@ing.ucsc.cl",
-    description="A package for aligning and diffing astronomical images",
-    keywords="astronomical image alignment difference",
+    description="A package for aligning and comparing astronomical images",
+    keywords="alignment astronomical astro astronomy comparing difference image stars",
     url="https://github.com/nagonzalezf/starsalign",
     project_urls={
-        "Source Code": "https://github.com/nagonzalezf/starsalign",
+        "Source Code": "https://github.com/nagonzalezf/starsalign/starsalign",
         "Bug Tracker": "https://github.com/nagonzalezf/starsalign/issues",
     },
     classifiers=[
