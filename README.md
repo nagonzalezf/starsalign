@@ -48,16 +48,6 @@ Getting the aligned science image with a more precise alignment using ```ultra_a
 >>> import starsalign as stal
 >>> aligned_image = stal.ultra_align(ref_image, science_image)
 ```
-# Documentation
-
-Documentation is under construction, in the meantime you can check:
-
-SIFT algorithm docs at: https://docs.opencv.org/4.x/da/df5/tutorial_py_sift_intro.html
-
-FLANN feature matcher docs at: https://docs.opencv.org/4.x/d5/d6f/tutorial_feature_flann_matcher.html
-
-Wich are the key methods applied.
-
 # Difference Image Analysis (DIA) application examples
 
 The main idea behind this technique is to subtract two images of the same portion of the sky, removing all photometrically stable stars, but tipically this images are not aligned by default.
@@ -83,3 +73,13 @@ And we get a desired difference result:
 | Reference Image  | Aligned Science Image | Difference Image |
 | ------------- | ------------- | ------------- |
 | <img src="examples/example_1_outputs/001_ref_image.png" width="240">  | <img src="examples/example_1_outputs/004_aligned_image.png" width="240">  | <img src="examples/example_1_outputs/005_diff_image.png" width="240">  |
+
+# Documentation
+
+Documentation is under construction, in the meantime you can check:
+
+SIFT algorithm docs at: https://docs.opencv.org/4.x/da/df5/tutorial_py_sift_intro.html
+
+FLANN feature matcher docs at: https://docs.opencv.org/4.x/d5/d6f/tutorial_feature_flann_matcher.html
+
+Wich are the key methods applied.
