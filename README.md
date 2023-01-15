@@ -59,7 +59,7 @@ The main idea behind this technique is to subtract two images of the same portio
 
 For this example we will use some float32 images of the NGC6569 globular cluster in the constellation Sagittarius.
 
-| Reference Image  | Science Image |
-| ------------- | ------------- |
-| <img src="examples/example_1_outputs/001_ref_image.png" width="240">  | <img src="examples/example_1_outputs/002_science_image.png" width="240">  |
+| Reference Image  | Science Image | Raw Difference Image |
+| ------------- | ------------- | ------------- |
+| <img src="examples/example_1_outputs/001_ref_image.png" width="240">  | <img src="examples/example_1_outputs/002_science_image.png" width="240">  | <img src="examples/example_1_outputs/003_raw_diff_image.png" width="240">  |
 
