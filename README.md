@@ -29,13 +29,13 @@ python setup.py install
 ```
 # Usage examples
 
-Getting the aligned science image using ```align()``` function
+Getting the aligned science image using ```align()``` function (faster method)
 ```
 >>> import starsalign as stal
 >>> aligned_image = stal.align(ref_image, science_image)
 ```
 
-Getting the aligned science image with a more precise alignment using ```ultra_align()``` function
+Getting the aligned science image with a more precise alignment using ```ultra_align()``` function (slower but more precise)
 ```
 >>> import starsalign as stal
 >>> aligned_image = stal.ultra_align(ref_image, science_image)
