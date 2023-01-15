@@ -84,7 +84,7 @@ We process the image using ```diff()``` function (faster method):
 ```
 And we get a desired difference result:
 
-| Reference Image  | Aligned Science Image | Difference Image |
+| Reference Image  | Aligned Science Image | Aligned Difference Image |
 | ------------- | ------------- | ------------- |
 | <img src="https://i.ibb.co/bQsdzKh/001-ref-image.png" width="240">  | <img src="https://i.ibb.co/d49V0Zc/004-aligned-image.png" width="240">  | <img src="https://i.ibb.co/GCy1qKc/005-diff-image.png" width="240">  |
 
