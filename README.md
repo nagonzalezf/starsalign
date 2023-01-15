@@ -55,7 +55,6 @@ Wich are the key methods applied.
 The main idea behind this technique is to subtract two images of the same portion of the sky, removing all photometrically stable stars, but tipically this images are not aligned by default.
 
 ## Example 1 - ```diff()``` function
-### Input Images
 
 For this example we will use some float32 images of the NGC6569 globular cluster in the constellation Sagittarius.
 
@@ -63,3 +62,16 @@ For this example we will use some float32 images of the NGC6569 globular cluster
 | ------------- | ------------- | ------------- |
 | <img src="examples/example_1_outputs/001_ref_image.png" width="240">  | <img src="examples/example_1_outputs/002_science_image.png" width="240">  | <img src="examples/example_1_outputs/003_raw_diff_image.png" width="240">  |
 
+As you can see the reference and science images are not aligned, so the raw difference results are incorrect.
+
+We process the image using ```diff()``` function (faster method):
+
+```
+>>> import starsalign as stal
+>>> aligned_image = stal.diff(ref_image, science_image)
+```
+And we get a desired difference result:
+
+| Reference Image  | Aligned Science Image | Difference Image |
+| ------------- | ------------- | ------------- |
+| <img src="examples/example_1_outputs/001_ref_image.png" width="240">  | <img src="examples/example_1_outputs/004_aligned_image.png" width="240">  | <img src="examples/example_1_outputs/005diff_image.png" width="240">  |
