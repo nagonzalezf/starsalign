@@ -6,7 +6,7 @@ It contains functions such as ```align()``` and ```diff()``` that aligns and com
 
 The package also contains ```ultra_align()``` and ```ultra_diff()``` functions for extreme precision, but they may require more resources.
 
-| Reference Image  | Science Image | Difference Image |
+| Reference Image  | Science Image | Raw Difference Image |
 | ------------- | ------------- | ------------- |
 | <img src="examples/example_2_outputs/001_ref_image.png" width="240">  | <img src="examples/example_2_outputs/002_science_image.png" width="240">  | <img src="examples/example_2_outputs/003_raw_diff_image.png" width="240">  |
 
