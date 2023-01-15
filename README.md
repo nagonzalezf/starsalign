@@ -1,6 +1,6 @@
 # StarsAlign - A package developed for aligning and comparing high density astronomical images with extreme precision
 
-StarsAlign is a package for aligning and comparing astronomical images using the SIFT algorithm and FLANN based matcher.
+StarsAlign is a tool for aligning and comparing astronomical images using the SIFT algorithm and FLANN based matcher.
 
 It contains functions such as ```align()``` and ```diff()``` that aligns and compute the difference of two single channel images.
 
