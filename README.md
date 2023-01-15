@@ -72,7 +72,7 @@ For this example we will use some float32 images of the NGC6569 globular cluster
 
 | Reference Image  | Science Image | Raw Difference Image |
 | ------------- | ------------- | ------------- |
-| <img src="examples/example_1_outputs/001_ref_image.png" width="240">  | <img src="examples/example_1_outputs/002_science_image.png" width="240">  | <img src="examples/example_1_outputs/003_raw_diff_image.png" width="240">  |
+| <img src="https://i.ibb.co/bQsdzKh/001-ref-image.png" width="240">  | <img src="https://i.ibb.co/R7z22P0/002-science-image.png" width="240">  | <img src="https://i.ibb.co/9yPDhMk/003-raw-diff-image.png" width="240">  |
 
 As you can see the reference and science images are not aligned, so the raw difference results are incorrect.
 
@@ -86,7 +86,7 @@ And we get a desired difference result:
 
 | Reference Image  | Aligned Science Image | Difference Image |
 | ------------- | ------------- | ------------- |
-| <img src="examples/example_1_outputs/001_ref_image.png" width="240">  | <img src="examples/example_1_outputs/004_aligned_image.png" width="240">  | <img src="examples/example_1_outputs/005_diff_image.png" width="240">  |
+| <img src="https://i.ibb.co/bQsdzKh/001-ref-image.png" width="240">  | <img src="examples/example_1_outputs/004_aligned_image.png" width="240">  | <img src="examples/example_1_outputs/005_diff_image.png" width="240">  |
 
 # Documentation
 
