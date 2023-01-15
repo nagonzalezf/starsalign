@@ -8,7 +8,7 @@ The package also contains ```ultra_align()``` and ```ultra_diff()``` functions f
 
 Examples of this package usage can be found inside the folder examples: https://github.com/nagonzalezf/starsalign/tree/main/examples
 
-The lastest package version is ```1.0.11```.
+The lastest package version is ```1.0.12```.
 
 | Reference Image  | Science Image | Raw Difference Image |
 | ------------- | ------------- | ------------- |
@@ -86,7 +86,7 @@ And we get a desired difference result:
 
 | Reference Image  | Aligned Science Image | Difference Image |
 | ------------- | ------------- | ------------- |
-| <img src="https://i.ibb.co/bQsdzKh/001-ref-image.png" width="240">  | <img src="examples/example_1_outputs/004_aligned_image.png" width="240">  | <img src="examples/example_1_outputs/005_diff_image.png" width="240">  |
+| <img src="https://i.ibb.co/bQsdzKh/001-ref-image.png" width="240">  | <img src="https://i.ibb.co/d49V0Zc/004-aligned-image.png" width="240">  | <img src="https://i.ibb.co/GCy1qKc/005-diff-image.png" width="240">  |
 
 # Documentation
 
