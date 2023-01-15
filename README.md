@@ -10,11 +10,9 @@ Examples of this package usage can be found inside the folder examples: https://
 
 The lastest package version is ```1.0.11```.
 
-[https://www.dropbox.com/s/8a22q75wbedcl21/001_ref_image.png](https://ucad4ff7e3fad903c2f294c2e1e2.previews.dropboxusercontent.com/p/thumb/ABwkmZIlejmDdpnjIvft1_eB-GGmhSWK5_spHi2qgdq1S4rCbUjgRHRIH8JeAS1uIvPZDcYJX3RUoEnThMO69oQ553gFJx6WqYFwpuebsjs0aKf-eJKPEdoUI3_ReavAgAlGQjfd7bAEQSYf7poOdOohLjZUEOTwMmSdtXgPU3UFtB6G_G-TEXg1YkKcIrgo_FSOrFKa5yCr88j0OLefbkz9xZrSaf7CEyrMAtcZYI8HsvrlEW1usQ7FcOJBO8oEoOchQ3B9uthcFVaTu1d03DL-41g2djpyoyuEX86BxTkMs1cfWfyWwfrbbYsO10q2uM0qJGLHvN7hC9LheFTWY3jVcS3QE_4j9-dQMYVvUynJOhcAYZ0QnZHOW1_1ORsxAp0jiD60gs_KImy_vOgqyx2goueKjtmnitRxaNiYWQQQow/p.png)
-
 | Reference Image  | Science Image | Raw Difference Image |
 | ------------- | ------------- | ------------- |
-| <img src="https://ucad4ff7e3fad903c2f294c2e1e2.previews.dropboxusercontent.com/p/thumb/ABwkmZIlejmDdpnjIvft1_eB-GGmhSWK5_spHi2qgdq1S4rCbUjgRHRIH8JeAS1uIvPZDcYJX3RUoEnThMO69oQ553gFJx6WqYFwpuebsjs0aKf-eJKPEdoUI3_ReavAgAlGQjfd7bAEQSYf7poOdOohLjZUEOTwMmSdtXgPU3UFtB6G_G-TEXg1YkKcIrgo_FSOrFKa5yCr88j0OLefbkz9xZrSaf7CEyrMAtcZYI8HsvrlEW1usQ7FcOJBO8oEoOchQ3B9uthcFVaTu1d03DL-41g2djpyoyuEX86BxTkMs1cfWfyWwfrbbYsO10q2uM0qJGLHvN7hC9LheFTWY3jVcS3QE_4j9-dQMYVvUynJOhcAYZ0QnZHOW1_1ORsxAp0jiD60gs_KImy_vOgqyx2goueKjtmnitRxaNiYWQQQow/p.png" width="240">  | <img src="examples/example_2_outputs/002_science_image.png" width="240">  | <img src="examples/example_2_outputs/003_raw_diff_image.png" width="240">  |
+| <img src="example_2_outputs/001_ref_image.png" width="240">  | <img src="examples/example_2_outputs/002_science_image.png" width="240">  | <img src="examples/example_2_outputs/003_raw_diff_image.png" width="240">  |
 
 | Reference Image  | Aligned Science Image | Aligned Difference Image |
 | ------------- | ------------- | ------------- |
