@@ -10,7 +10,7 @@ This package was specifically designed to work with images that have a high amou
 
 It is recommended to use the ```ultra_align()``` and ```ultra_diff()``` functions on lower resolution or lower density images, but it may result in prolonged waiting times.
 
-Examples of this package usage can be found inside the folder examples: ```https://github.com/nagonzalezf/starsalign/tree/main/examples```
+Examples of this package usage can be found inside the folder examples: https://github.com/nagonzalezf/starsalign/tree/main/examples
 
 The lastest package version is ```1.0.7.```
 
@@ -44,9 +44,9 @@ Getting the aligned science image with a more precise alignment using ```ultra_a
 
 Documentation is under construction, in the meantime you can check:
 
-SIFT algorithm docs at: ```https://docs.opencv.org/4.x/da/df5/tutorial_py_sift_intro.html```
+SIFT algorithm docs at: https://docs.opencv.org/4.x/da/df5/tutorial_py_sift_intro.html
 
-FLANN feature matcher docs at: ```https://docs.opencv.org/4.x/d5/d6f/tutorial_feature_flann_matcher.html```
+FLANN feature matcher docs at: https://docs.opencv.org/4.x/d5/d6f/tutorial_feature_flann_matcher.html
 
 # Applications
 
