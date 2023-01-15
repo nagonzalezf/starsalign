@@ -8,12 +8,12 @@ STARSALIGN_PATH = os.path.join(PATH, "starsalign/starsalign.py")
 with open(STARSALIGN_PATH, "r") as f:
     for line in f:
         if line.startswith("__version__"):
-            _, _, AA_VERSION = line.replace('"', "").split()
+            _, _, VERSION = line.replace('"', "").split()
             break
 
 setup(
     name="starsalign",
-    version=AA_VERSION,
+    version=VERSION,
     packages=find_packages(),
 
     author="Nicolas Antonio Gonzalez Figueroa",
