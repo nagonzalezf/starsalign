@@ -1,5 +1,7 @@
 # StarsAlign - A package for aligning and comparing high density astronomical images with extreme precision
 
+![image](readme_images/title.png)
+
 | Raw Difference Image  | Aligned Difference Image |
 | ------------- | ------------- |
 | <img src="examples/example_2_outputs/003_raw_diff_image.png" width="240">  | <img src="examples/example_2_outputs/005_diff_image.png" width="240">  |
