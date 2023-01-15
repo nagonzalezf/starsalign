@@ -19,3 +19,9 @@ Using pip:
 ```bash
 pip install astroalign
 ```
+
+Using setup.py file
+
+```bash
+python setup.py install
+```
