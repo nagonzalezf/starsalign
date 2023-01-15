@@ -4,7 +4,10 @@
 | Reference Image  | Science Image | Difference Image |
 | ------------- | ------------- | ------------- |
 | <img src="examples/example_2_outputs/001_ref_image.png" width="240">  | <img src="examples/example_2_outputs/002_science_image.png" width="240">  | <img src="examples/example_2_outputs/003_raw_diff_image.png" width="240">  |
-| Reference Image  | Science Image | Difference Image |
+
+| Reference Image  | Aligned Science Image | Aligned Difference Image |
+| ------------- | ------------- | ------------- |
+| <img src="examples/example_2_outputs/001_ref_image.png" width="240">  | <img src="examples/example_2_outputs/004_aligned_image.png" width="240">  | <img src="examples/example_2_outputs/005_diff_image.png" width="240">  |
 
 StarsAlign is a package for aligning and comparing astronomical images using the SIFT algorithm and FLANN based matcher.
 
