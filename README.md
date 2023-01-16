@@ -66,7 +66,7 @@ If you want to process multi channel images you have two options:
 
 The main idea behind this technique is to subtract two images of the same portion of the sky, removing all photometrically stable stars, but tipically this images are not aligned by default.
 
-## Example 1 - ```fast_diff()``` function
+## Example 1 - ```fast_align()``` & ```fast_diff()``` functions
 
 For this example we will use some float32 images of the NGC6569 globular cluster in the constellation Sagittarius.
 
