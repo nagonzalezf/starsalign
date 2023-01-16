@@ -89,6 +89,10 @@ And we get the desired difference result:
 | ------------- | ------------- | ------------- |
 | <img src="https://i.ibb.co/bQsdzKh/001-ref-image.png" width="240">  | <img src="https://i.ibb.co/d49V0Zc/004-aligned-image.png" width="240">  | <img src="https://i.ibb.co/GCy1qKc/005-diff-image.png" width="240">  |
 
+The source float32 images used for this examples can be found at:
+https://github.com/nagonzalezf/starsalign/blob/main/examples/ref_image.npy
+https://github.com/nagonzalezf/starsalign/blob/main/examples/science_image.npy
+
 # Documentation
 
 Documentation is under construction, in the meantime you can check:
