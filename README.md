@@ -20,7 +20,7 @@ The lastest package version is ```1.0.13```.
 
 ## Important
 
-Functions ```fast_align()``` and ```fast_diff()``` were specifically designed to work with images that have a high amount of information, such as 4096x2048 pixels, with float32 data type, and a range of values between -155.45811 and 43314.49.
+Functions ```fast_align()``` and ```fast_diff()``` were specifically designed to work with images that have a high amount of information, such as 4096x2048 pixels, with float32 data type, and a range of values between -40000 and 40000.
 
 It is recommended to use the ```align()``` and ```diff()``` functions on lower resolution or lower density images, but it may result in prolonged waiting times for bigger images.
 
