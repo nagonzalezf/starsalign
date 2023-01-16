@@ -100,5 +100,3 @@ Documentation is under construction, in the meantime you can check:
 SIFT algorithm docs at: https://docs.opencv.org/4.x/da/df5/tutorial_py_sift_intro.html
 
 FLANN feature matcher docs at: https://docs.opencv.org/4.x/d5/d6f/tutorial_feature_flann_matcher.html
-
-Wich are the key methods applied.
