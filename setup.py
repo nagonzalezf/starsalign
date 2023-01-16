@@ -11,6 +11,11 @@ with open(STARSALIGN_PATH, "r") as f:
             _, _, VERSION = line.replace('"', "").split()
             break
 
+README_MD_PATH = os.path.join(PATH, "README.md")
+
+with open(README_MD_PATH, "r") as f:
+    LONG_DESCRIPTION = f.read()
+
 setup(
     name="starsalign",
     version=VERSION,
@@ -19,7 +24,11 @@ setup(
     author="Nicolas Antonio Gonzalez Figueroa",
     author_email="nagonzalezf@ing.ucsc.cl",
     description="A package for aligning and comparing astronomical images",
-    keywords="alignment astronomical astro astronomy comparing difference image stars",
+    long_description=LONG_DESCRIPTION,
+    long_description_content_type="text/markdown",
+    keywords="align alignment alignment-algorithm astro astronomy astronomical-images astrophysics \
+        displacement-estimation difference-image-analysis flann-matchers galaxies image-processing \
+        image-subtraction keypoint-detection numpy opencv sift-algorithm stars starsalign",
     url="https://github.com/nagonzalezf/starsalign",
     project_urls={
         "Source Code": "https://github.com/nagonzalezf/starsalign/starsalign",
@@ -45,3 +54,5 @@ setup(
         "opencv-python-headless"
     ],
 )
+
+# https://github.com/nagonzalezf/starsalign/
