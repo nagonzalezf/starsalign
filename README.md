@@ -6,7 +6,7 @@ It contains functions such as ```fast_align()``` and ```fast_diff()``` that alig
 
 The package also contains ```align()``` and ```diff()``` functions for extreme precision, but they may require more resources.
 
-Examples of this package usage can be found inside the folder examples: https://github.com/nagonzalezf/starsalign/tree/main/examples
+Examples of this package usage can be found inside the folder: https://github.com/nagonzalezf/starsalign/tree/main/examples
 
 The lastest package version is ```1.0.13```.
 
