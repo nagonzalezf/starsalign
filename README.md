@@ -45,10 +45,10 @@ Getting the aligned science image using ```fast_align()``` function (faster meth
 >>> aligned_image = sa.fast_align(ref_image, science_image)
 ```
 
-Getting the aligned science image with a more precise alignment using ```align()``` function (slower but more accurate)
+Getting the aligned difference image with a more precise alignment using ```diff()``` function (slower but more accurate)
 ```
 >>> import starsalign as sa
->>> aligned_image = sa.align(ref_image, science_image)
+>>> aligned_difference_image = sa.diff(ref_image, science_image)
 ```
 # Supported input formats
 
