@@ -42,6 +42,6 @@ setup(
     ],
     install_requires=[
         "numpy",
-        "opencv-python"
+        "opencv"
     ],
 )
