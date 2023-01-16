@@ -76,11 +76,12 @@ For this example we will use some float32 images of the NGC6569 globular cluster
 
 As you can see the reference and science images are not aligned, so the raw difference results are incorrect.
 
-We process the image using ```fast_diff()``` function (faster method):
+We process the image using ```fast_align()``` and ```fast_diff()``` functions (faster method):
 
 ```
 >>> import starsalign as sa
->>> aligned_image = sa.fast_diff(ref_image, science_image)
+>>> aligned_image = sa.fast_align(ref_image, science_image)
+>>> aligned_difference_image = sa.fast_diff(ref_image, science_image)
 ```
 And we get the desired difference result:
 
