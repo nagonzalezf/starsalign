@@ -37,7 +37,7 @@ Using ```setup.py``` file from root directory
 ```bash
 python setup.py install
 ```
-# Usage examples
+# Examples
 
 Getting the aligned science image using ```fast_align()``` function (faster method)
 ```
