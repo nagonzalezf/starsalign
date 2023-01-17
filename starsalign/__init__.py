@@ -27,7 +27,7 @@ The align() and diff() functions are slower, but supports multi channel images a
 Warning: Using the align() and diff() functions on high-density information and high-resolution images may result in prolonged waiting times.
 """
 
-__version__ = "1.0.13"
+__version__ = "1.1.0"
 
 import os
 import cv2 as cv
@@ -39,6 +39,8 @@ def fast_align(ref_image: np.ndarray, science_image: np.ndarray) -> np.ndarray:
     fast_align()
     ===
     Aligns the science_image to the reference image by finding keypoints and matching them using SIFT algorithm, then finds the homography between the two images, and applies a perspective warp to align the science_image.
+
+    The function takes in two input images, a reference image and a science image, and aligns the science image to the reference image.
 
     Parameters:
         ref_image (np.ndarray): The reference image, to which the science_image will be aligned.
@@ -93,6 +95,8 @@ def align(ref_image: np.ndarray, science_image: np.ndarray) -> np.ndarray:
     ===
     A more advanced version of the fast_align() function that holds more information to perform the calculations, which results in a more precise alignment.
 
+    The function takes in two input images, a reference image and a science image, and aligns the science image to the reference image.
+    
     Parameters:
         ref_image (np.ndarray): The reference image, to which the science_image will be aligned.
         science_image (np.ndarray): The science image that will be aligned to the reference image.
@@ -107,7 +111,7 @@ def align(ref_image: np.ndarray, science_image: np.ndarray) -> np.ndarray:
     """
     with tempfile.NamedTemporaryFile(suffix='.png', delete=False) as ref_buffer:
         cv.imwrite(ref_buffer.name, ref_image)
-        ref_image_uint8 = cv.imread(ref_buffer.name) 
+        ref_image_uint8 = cv.imread(ref_buffer.name)
 
     with tempfile.NamedTemporaryFile(suffix='.png', delete=False) as science_buffer:
         cv.imwrite(science_buffer.name, science_image)
@@ -201,5 +205,31 @@ def diff(ref_image, science_image):
     diff_image = ref_image - aligned_image
 
     return diff_image
+
+def normalize(image: np.ndarray) -> np.ndarray:
+    """
+    This function that takes in a single input argument image.
+
+    The function calculates the mean and standard deviation of the pixel values in the image using the np.mean() and np.std() functions, respectively.
+
+    It then normalize the image by subtracting the mean from all pixels of the image and then dividing by the standard deviation.
+
+    This can be useful in cases where the images have different brightness levels.
+
+    Parameters:
+        image (np.ndarray): The input image.
+
+    Returns:
+        np.ndarray: The normalized image.
+
+    Example:
+    ===
+    >>> import starsalign as sa
+    >>> normalized_image = sa.normalize(image)
+    """
+    mean = np.mean(image)
+    std = np.std(image)
+    normalized_image = (image - mean) / std
+    return normalized_image
 
 # https://github.com/nagonzalezf/starsalign
