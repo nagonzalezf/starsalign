@@ -66,13 +66,13 @@ The main idea behind this technique is to subtract two images of the same portio
 
 ## Example 1 - ```fast_align()``` & ```fast_diff()``` functions
 
-For this example we are working with two wide range float32 images of the NGC6569 globular cluster in the constellation Sagittarius, captured using the the Dark Energy Camera (DECam) instrument of the Victor M. Blanco 4-meter Telescope at the Cerro Tololo Inter-American Observatory (CTIO) in the Chilean Andes. This images were pre-proccesed using the data reduction pipelines developed by the Rubin Observatory (LSST pipelines).
+We are working over two wide-range float32 images of the NGC6569 globular cluster in the constellation Sagittarius. These images were captured using the Dark Energy Camera (DECam) instrument of the Victor M. Blanco 4-meter Telescope at the Cerro Tololo Inter-American Observatory (CTIO) in the Chilean Andes. They were pre-processed using the data reduction pipelines developed by the Rubin Observatory (LSST pipelines).
 
 | Reference Image  | Science Image | Raw Difference Image |
 | ------------- | ------------- | ------------- |
 | <img src="https://i.ibb.co/bQsdzKh/001-ref-image.png" width="240">  | <img src="https://i.ibb.co/R7z22P0/002-science-image.png" width="240">  | <img src="https://i.ibb.co/9yPDhMk/003-raw-diff-image.png" width="240">  |
 
-As you can see the reference and science images are not aligned, so the raw difference results are incorrect.
+The reference and science images are not aligned, so the raw difference results are incorrect.
 
 We process the image using ```fast_align()``` and ```fast_diff()``` functions (faster method):
 
