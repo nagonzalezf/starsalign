@@ -4,7 +4,7 @@ StarsAlign is a tool for aligning and comparing astronomical images using the Sc
 
 It contains functions such as ```fast_align()``` and ```fast_diff()``` that aligns and compute the difference of two single channel images.
 
-The package also contains ```align()``` and ```diff()``` functions for extreme precision, but they may require more resources.
+The package also contains ```align()``` and ```diff()``` functions for extreme precision and multi channel support, but they may require more resources.
 
 Another useful tool of this package is the ```normalize()``` function, wich normalize the image by subtracting the mean from all pixels of the image and then dividing by the standard deviation. This can be useful in cases where the images have different brightness levels.
 
