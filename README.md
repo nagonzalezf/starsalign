@@ -90,7 +90,7 @@ And we get the desired difference result:
 | <img src="https://i.ibb.co/bQsdzKh/001-ref-image.png" width="240">  | <img src="https://i.ibb.co/d49V0Zc/004-aligned-image.png" width="240">  | <img src="https://i.ibb.co/GCy1qKc/005-diff-image.png" width="240">  |
 
 ### Note: ###
-This results were obtained using the lsst.dirac.dev resources (CPU, RAM) and they were calculated in about 8 seconds. If we perform the proccesing under the same conditions using ```align()``` and ```diff()``` functions, then it takes about 20 minutes to complete and we get a slightly more accurate x and y displacement values calculations.
+This results were obtained using the lsst.dirac.dev resources (CPU, RAM) and they were calculated in about 8 seconds. If we perform the proccesing under the same conditions using ```align()``` and ```diff()``` functions, then it takes about 20 minutes to complete and we get a slightly more accurate x and y displacement value calculations.
 
 The source float32 images used for this examples can be found at:
 https://github.com/nagonzalezf/starsalign/blob/main/examples/ref_image.npy
