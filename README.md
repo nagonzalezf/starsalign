@@ -6,6 +6,8 @@ It contains functions such as ```fast_align()``` and ```fast_diff()``` that alig
 
 The package also contains ```align()``` and ```diff()``` functions for extreme precision, but they may require more resources.
 
+Another useful tool of this package is the ```normalize()``` function, wich normalize the image by subtracting the mean from all pixels of the image and then dividing by the standard deviation. This can be useful in cases where the images have different brightness levels.
+
 Examples of this package usage can be found inside the folder: https://github.com/nagonzalezf/starsalign/tree/main/examples
 
 | Reference Image  | Science Image | Raw Difference Image |
