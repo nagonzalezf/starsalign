@@ -8,8 +8,6 @@ The package also contains ```align()``` and ```diff()``` functions for extreme p
 
 Examples of this package usage can be found inside the folder: https://github.com/nagonzalezf/starsalign/tree/main/examples
 
-The lastest package version is ```1.0.13```.
-
 | Reference Image  | Science Image | Raw Difference Image |
 | ------------- | ------------- | ------------- |
 | <img src="https://i.ibb.co/hDQhcy7/001-ref-image.png" width="240">  | <img src="https://i.ibb.co/kmGznJg/002-science-image.png" width="240">  | <img src="https://i.ibb.co/LPXqhCy/003-raw-diff-image.png" width="240">  |
