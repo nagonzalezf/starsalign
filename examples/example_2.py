@@ -1,8 +1,8 @@
 """
 This example shows how to use the STARSALIGN package to align two single channel astronomical images.
 
-It loads two images 'ref_image.npy' and 'science_image.npy', then it uses the functions 'ultra_align()'
-and 'ultra_diff()' from the STARSALIGN package to get the aligned and difference images.
+It loads two images 'ref_image.npy' and 'science_image.npy', then it uses the functions 'align()'
+and 'diff()' from the STARSALIGN package to get the aligned and difference images.
 
 Finally, it saves all the images in .png format using opencv.
 
@@ -12,7 +12,7 @@ https://github.com/nagonzalezf/starsalign/
 import os
 import cv2 as cv
 import numpy as np
-import starsalign as stal
+import starsalign as sa
 
 # Load images and extract small 500x500 patches for each image
 ref_image = np.load('ref_image.npy')[1800:2300, 250:750]
@@ -21,11 +21,11 @@ science_image = np.load('science_image.npy')[1800:2300, 250:750]
 # Get the raw difference image
 raw_diff_image = ref_image - science_image
 
-# Use the starsalign ultra_align() function to get the aligned image
-aligned_image = stal.ultra_align(ref_image, science_image)
+# Use the starsalign align() function to get the aligned image
+aligned_image = sa.align(ref_image, science_image)
 
-# Use the starsalign ultra_diff() function to get the difference image
-diff_image = stal.ultra_diff(ref_image, science_image)
+# Use the starsalign diff() function to get the difference image
+diff_image = sa.diff(ref_image, science_image)
 
 # Create outputs folder
 if not os.path.exists("example_2_outputs"):
