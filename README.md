@@ -30,10 +30,12 @@ Using pip:
 ```
 pip install starsalign
 ```
+
 Using ```setup.py``` file from root directory
 ```
 python setup.py install
 ```
+
 # Examples
 
 Getting the aligned science image using ```fast_align()``` function (faster method)
@@ -41,11 +43,13 @@ Getting the aligned science image using ```fast_align()``` function (faster meth
 >>> import starsalign as sa
 >>> aligned_image = sa.fast_align(ref_image, science_image)
 ```
+
 Getting the aligned difference image with a more precise alignment using ```diff()``` function (slower but more accurate)
 ```
 >>> import starsalign as sa
 >>> aligned_difference_image = sa.diff(ref_image, science_image)
 ```
+
 # Supported input formats
 
 By default the package is intended to be use over **float 32** single channel images of wide range, but it can also process other formats such as **uint8** images or even binary images.
@@ -79,6 +83,7 @@ In order to align the images we can use the ```fast_align()``` and ```fast_diff(
 >>> aligned_image = sa.fast_align(ref_image, science_image)
 >>> aligned_difference_image = sa.fast_diff(ref_image, science_image)
 ```
+
 And we get the desired difference result:
 
 | Reference Image  | Aligned Science Image | Aligned Difference Image |
@@ -86,7 +91,7 @@ And we get the desired difference result:
 | <img src="https://i.ibb.co/bQsdzKh/001-ref-image.png" width="240">  | <img src="https://i.ibb.co/d49V0Zc/004-aligned-image.png" width="240">  | <img src="https://i.ibb.co/GCy1qKc/005-diff-image.png" width="240">  |
 
 ### Note: ###
-This results were obtained using the lsst.dirac.dev resources (CPU, RAM) and they were calculated in about 8 seconds. If we perform the proccesing under the same conditions using ```align()``` and ```diff()``` functions, then it takes about 20 minutes to complete and we get a slightly more accurate x and y displacement value calculations.
+This results were obtained using the lsst.dirac.dev resources (CPU, RAM) and they were calculated in about 8 seconds. Performing the proccesing under the same conditions using ```align()``` and ```diff()``` functions would take about 20 minutes to complete for a slightly more accurate x and y displacement value calculations.
 
 The source float32 images used for this examples can be found at:
 https://github.com/nagonzalezf/starsalign/blob/main/examples/ref_image.npy
