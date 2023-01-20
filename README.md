@@ -1,4 +1,4 @@
-# StarsAlign - A package developed for aligning and comparing high density astronomical images with extreme precision
+# StarsAlign - A package for precise alignment and substaction of wide range astronomical images
 
 StarsAlign is a tool for aligning and comparing astronomical images using the Scale-Invariant Feature Transform (SIFT), Fast Library for Approximate Nearest Neighbors (FLANN) and Random Sample Consensus (RANSAC) algorithms.
 
