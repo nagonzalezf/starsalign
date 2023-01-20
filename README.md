@@ -66,7 +66,7 @@ If you want to process multi channel images you have two options:
 
 The main idea behind this technique is to subtract two images of the same portion of the sky, removing all photometrically stable stars, but tipically the source images are not aligned.
 
-## DIA application Example - ```fast_align()``` and ```fast_diff()``` functions ##
+## DIA application Example - ```fast_align()``` and ```fast_diff()``` functions
 
 We are working over two wide-range float32 images of the NGC6569 globular cluster in the constellation Sagittarius, the "ref_image.npy" and "science_image.npy" images. These images were captured using the Dark Energy Camera (DECam) instrument of the Victor M. Blanco 4-meter Telescope at the Cerro Tololo Inter-American Observatory (CTIO) in the Chilean Andes. They were pre-processed using the data reduction pipelines developed by the Rubin Observatory (LSST pipelines).
 
