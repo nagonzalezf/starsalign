@@ -27,14 +27,11 @@ It is recommended to use the ```align()``` and ```diff()``` functions for lower 
 # Installation
 
 Using pip:
-
 ```
 pip install starsalign
 ```
-
 Using ```setup.py``` file from root directory
-
-```bash
+```
 python setup.py install
 ```
 # Examples
@@ -44,7 +41,6 @@ Getting the aligned science image using ```fast_align()``` function (faster meth
 >>> import starsalign as sa
 >>> aligned_image = sa.fast_align(ref_image, science_image)
 ```
-
 Getting the aligned difference image with a more precise alignment using ```diff()``` function (slower but more accurate)
 ```
 >>> import starsalign as sa
@@ -68,7 +64,7 @@ The main idea behind this technique is to subtract two images of the same portio
 
 ## DIA application Example - ```fast_align()``` & ```fast_diff()``` functions
 
-We are working over two wide-range float32 images of the NGC6569 globular cluster in the constellation Sagittarius. These images were captured using the Dark Energy Camera (DECam) instrument of the Victor M. Blanco 4-meter Telescope at the Cerro Tololo Inter-American Observatory (CTIO) in the Chilean Andes. They were pre-processed using the data reduction pipelines developed by the Rubin Observatory (LSST pipelines).
+We are working over two wide-range float32 images of the NGC6569 globular cluster in the constellation Sagittarius, the "ref_image.npy" and "science_image.npy" images. These were captured using the Dark Energy Camera (DECam) instrument of the Victor M. Blanco 4-meter Telescope at the Cerro Tololo Inter-American Observatory (CTIO) in the Chilean Andes. They were pre-processed using the data reduction pipelines developed by the Rubin Observatory (LSST pipelines).
 
 | Reference Image  | Science Image | Raw Difference Image |
 | ------------- | ------------- | ------------- |
@@ -76,7 +72,7 @@ We are working over two wide-range float32 images of the NGC6569 globular cluste
 
 The reference and science images are not aligned, so the raw difference results are incorrect.
 
-We process the image using ```fast_align()``` and ```fast_diff()``` functions (faster method):
+In order to align the images we can use the ```fast_align()``` and ```fast_diff()``` functions (faster method):
 
 ```
 >>> import starsalign as sa
