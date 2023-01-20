@@ -15,3 +15,7 @@ The code could be optimized by implementing more functions or objects in such a 
 If you have ideas for this library then It would be awesome to hear from you.
 
 Any ideas & suggestions are always welcomed.
+
+## Fast contact
+
+You can directly contact me at nagonzalezf@ing.ucsc.cl
