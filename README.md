@@ -22,7 +22,7 @@ Examples of this package usages can be found inside the folder: https://github.c
 
 Functions ```fast_align()``` and ```fast_diff()``` were specifically designed to work with images that have a high amount of information, such as 4096x2048 pixels, with float32 data type, and a range of values between -40000 and 40000.
 
-It is recommended to use the ```align()``` and ```diff()``` functions on lower resolution or lower density images, but it may result in prolonged waiting times for bigger images.
+It is recommended to use the ```align()``` and ```diff()``` functions for lower resolution or lower density images, but it may result in prolonged waiting times for bigger images.
 
 # Installation
 
