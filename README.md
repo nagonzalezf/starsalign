@@ -20,7 +20,7 @@ Examples of this package usages can be found inside the folder: https://github.c
 
 ### Important ###
 
-Functions ```fast_align()``` and ```fast_diff()``` were specifically designed to work with images that have a high amount of information, such as 4096x2048 pixels, with float32 data type, and a range of values between -40000 and 40000.
+Functions ```fast_align()``` and ```fast_diff()``` were specifically designed to work with images that have a high amount of information, such as 4096x2048 pixels, with float32 data type, and a range of values between -40000 and 40000 (Example 1).
 
 It is recommended to use the ```align()``` and ```diff()``` functions for lower resolution or lower density images, but it may result in prolonged waiting times for bigger images.
 
@@ -28,7 +28,7 @@ It is recommended to use the ```align()``` and ```diff()``` functions for lower 
 
 Using pip:
 
-```bash
+```
 pip install starsalign
 ```
 
