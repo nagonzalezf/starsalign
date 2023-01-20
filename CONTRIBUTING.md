@@ -12,4 +12,6 @@ The code could be optimized by implementing more functions or objects in such a 
 
 ## Suggesting new functionalities
 
-If you have ideas for this library then It would be awesome to hear from you. Any ideas & suggestions are welcomed.
+If you have ideas for this library then It would be awesome to hear from you.
+
+Any ideas & suggestions are always welcomed.
