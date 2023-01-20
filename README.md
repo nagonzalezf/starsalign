@@ -36,7 +36,7 @@ Using ```setup.py``` file from root directory
 python setup.py install
 ```
 
-# Examples
+# Syntax
 
 Getting the aligned science image using ```fast_align()``` function (faster method)
 ```
