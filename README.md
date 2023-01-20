@@ -62,13 +62,13 @@ If you want to process multi channel images you have two options:
 
 2. You can get rid of the extra channels yourself performing some pre-processing tasks such as opencv ```cvtColor()``` functions for color space conversions or similar methods and then process the images using the ```fast_align()``` and ```fast_diff()``` functions.
 
-# Difference Image Analysis (DIA) applications
+# Difference Image Analysis (DIA) Applications
 
-The main idea behind this technique is to subtract two images of the same portion of the sky, removing all photometrically stable stars, but tipically this images are not aligned by default.
+The main idea behind this technique is to subtract two images of the same portion of the sky, removing all photometrically stable stars, but tipically the source images are not aligned.
 
-## DIA application Example - ```fast_align()``` & ```fast_diff()``` functions
+## DIA application Example - ```fast_align()``` and ```fast_diff()``` functions ##
 
-We are working over two wide-range float32 images of the NGC6569 globular cluster in the constellation Sagittarius, the "ref_image.npy" and "science_image.npy" images. These were captured using the Dark Energy Camera (DECam) instrument of the Victor M. Blanco 4-meter Telescope at the Cerro Tololo Inter-American Observatory (CTIO) in the Chilean Andes. They were pre-processed using the data reduction pipelines developed by the Rubin Observatory (LSST pipelines).
+We are working over two wide-range float32 images of the NGC6569 globular cluster in the constellation Sagittarius, the "ref_image.npy" and "science_image.npy" images. These images were captured using the Dark Energy Camera (DECam) instrument of the Victor M. Blanco 4-meter Telescope at the Cerro Tololo Inter-American Observatory (CTIO) in the Chilean Andes. They were pre-processed using the data reduction pipelines developed by the Rubin Observatory (LSST pipelines).
 
 | Reference Image  | Science Image | Raw Difference Image |
 | ------------- | ------------- | ------------- |
