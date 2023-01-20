@@ -18,4 +18,4 @@ Any ideas & suggestions are always welcomed.
 
 ## Fast contact
 
-You can directly contact me at nagonzalezf@ing.ucsc.cl
+You can directly contact me (vibrate my phone) at nagonzalezf@ing.ucsc.cl
