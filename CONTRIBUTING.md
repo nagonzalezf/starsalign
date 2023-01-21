@@ -13,7 +13,3 @@ The code could be optimized to perform the same tasks using fewer lines of code.
 ## Suggesting new functionalities
 
 Any ideas & suggestions are always welcomed.
-
-## Fast contact
-
-You can directly contact me via email at nagonzalezf@ing.ucsc.cl
