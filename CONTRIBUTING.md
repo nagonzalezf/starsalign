@@ -1,6 +1,6 @@
 # Contributing
 
-The current model has mostly been tested on high-range float32 images (images with a lot of information), so there may be other images or formats where the model is not able to align the input images perfectly.
+The current model has mostly been tested on high-range float32 images, so there may be other images or formats where the model is not able to align the input images perfectly.
 
 ## Finding images where the model is not able to align them
 
@@ -8,14 +8,12 @@ The simplest way to contribute to this project is by finding images that cannot 
 
 ## Code optimization
 
-The code could be optimized by implementing more functions or objects in such a way that they perform the same tasks using fewer lines of code.
+The code could be optimized to perform the same tasks using fewer lines of code.
 
 ## Suggesting new functionalities
-
-If you have ideas for this library then It would be awesome to hear from you.
 
 Any ideas & suggestions are always welcomed.
 
 ## Fast contact
 
-You can directly contact me (vibrate my phone) at nagonzalezf@ing.ucsc.cl
+You can directly contact me via email at nagonzalezf@ing.ucsc.cl
