@@ -72,7 +72,7 @@ We are working over two wide-range float32 images of the NGC6569 globular cluste
 
 | Reference Image  | Science Image | Raw Difference Image |
 | ------------- | ------------- | ------------- |
-| <img src="examples/example_1_outputs/001_ref_image.png" width="240"> | <img src="examples/example_1_outputs/002_science_image.png" width="240"> | <img src="examples/example_1_outputs/003_raw_diff_image.png"> |
+| <img src="examples/example_1_outputs/001_ref_image.png" width="240"> | <img src="examples/example_1_outputs/002_science_image.png" width="240"> | <img src="examples/example_1_outputs/003_raw_diff_image.png" width="240"> |
 
 The reference and science images are not aligned, so the raw difference results are incorrect.
 
@@ -88,7 +88,7 @@ And we get the desired difference result:
 
 | Reference Image  | Aligned Science Image | Aligned Difference Image |
 | ------------- | ------------- | ------------- |
-| <img src="examples/example_1_outputs/001_ref_image.png" width="240"> | <img src="examples/example_1_outputs/002_aligned_image.png" width="240"> | <img src="examples/example_1_outputs/003_diff_image.png"> |
+| <img src="examples/example_1_outputs/001_ref_image.png" width="240"> | <img src="examples/example_1_outputs/002_aligned_image.png" width="240"> | <img src="examples/example_1_outputs/003_diff_image.png" width="240"> |
 
 ### Note: ###
 This results were obtained using the lsst.dirac.dev resources (CPU, RAM) and they were calculated in about 8 seconds. Performing the proccesing under the same conditions using ```align()``` and ```diff()``` functions would take about 20 minutes to complete for a slightly more accurate x and y displacement value calculations.
