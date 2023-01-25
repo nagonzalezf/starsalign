@@ -12,7 +12,7 @@ Examples of this package usages can be found inside the folder: https://github.c
 
 | Reference Image  | Science Image | Raw Difference Image |
 | ------------- | ------------- | ------------- |
-| <img src="https://i.ibb.co/hDQhcy7/001-ref-image.png" width="240">  | <img src="https://i.ibb.co/kmGznJg/002-science-image.png" width="240">  | <img src="https://i.ibb.co/LPXqhCy/003-raw-diff-image.png" width="240">  |
+| <img src="examples/example_2_outputs/001_ref_image.png" width="240"> | <img src="https://i.ibb.co/kmGznJg/002-science-image.png" width="240">  | <img src="https://i.ibb.co/LPXqhCy/003-raw-diff-image.png" width="240">  |
 
 | Reference Image  | Aligned Science Image | Aligned Difference Image |
 | ------------- | ------------- | ------------- |
