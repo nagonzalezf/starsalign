@@ -12,11 +12,11 @@ Examples of this package usages can be found inside the folder: https://github.c
 
 | Reference Image  | Science Image | Raw Difference Image |
 | ------------- | ------------- | ------------- |
-| <img src="examples/example_2_outputs/001_ref_image.png" width="240"> | <img src="examples/example_2_outputs/002_science_image.png" width="240">  | <img src="examples/example_2_outputs/003_raw_diff_image.png" width="240">  |
+| <img src="examples/example_2_outputs/001_ref_image.png" width="240"> | <img src="examples/example_2_outputs/002_science_image.png" width="240"> | <img src="examples/example_2_outputs/003_raw_diff_image.png" width="240"> |
 
 | Reference Image  | Aligned Science Image | Aligned Difference Image |
 | ------------- | ------------- | ------------- |
-| <img src="examples/example_2_outputs/001_ref_image.png" width="240">  | <img src="examples/example_2_outputs/004_aligned_image.png" width="240">  | <img src="examples/example_2_outputs/005_diff_image.png" width="240">  |
+| <img src="examples/example_2_outputs/001_ref_image.png" width="240"> | <img src="examples/example_2_outputs/004_aligned_image.png" width="240"> | <img src="examples/example_2_outputs/005_diff_image.png" width="240"> |
 
 ### Important ###
 
@@ -72,7 +72,7 @@ We are working over two wide-range float32 images of the NGC6569 globular cluste
 
 | Reference Image  | Science Image | Raw Difference Image |
 | ------------- | ------------- | ------------- |
-| <img src="https://i.ibb.co/bQsdzKh/001-ref-image.png" width="240">  | <img src="https://i.ibb.co/R7z22P0/002-science-image.png" width="240">  | <img src="https://i.ibb.co/9yPDhMk/003-raw-diff-image.png" width="240">  |
+| <img src="examples/example_1_outputs/001_ref_image.png" width="240"> | <img src="examples/example_1_outputs/002_science_image.png" width="240"> | <img src="examples/example_1_outputs/003_raw_diff_image.png"> |
 
 The reference and science images are not aligned, so the raw difference results are incorrect.
 
@@ -88,7 +88,7 @@ And we get the desired difference result:
 
 | Reference Image  | Aligned Science Image | Aligned Difference Image |
 | ------------- | ------------- | ------------- |
-| <img src="https://i.ibb.co/bQsdzKh/001-ref-image.png" width="240">  | <img src="https://i.ibb.co/d49V0Zc/004-aligned-image.png" width="240">  | <img src="https://i.ibb.co/GCy1qKc/005-diff-image.png" width="240">  |
+| <img src="examples/example_1_outputs/001_ref_image.png" width="240"> | <img src="examples/example_1_outputs/002_aligned_image.png" width="240"> | <img src="examples/example_1_outputs/003_diff_image.png"> |
 
 ### Note: ###
 This results were obtained using the lsst.dirac.dev resources (CPU, RAM) and they were calculated in about 8 seconds. Performing the proccesing under the same conditions using ```align()``` and ```diff()``` functions would take about 20 minutes to complete for a slightly more accurate x and y displacement value calculations.
