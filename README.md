@@ -88,7 +88,7 @@ And we get the desired difference result:
 
 | Reference Image  | Aligned Science Image | Aligned Difference Image |
 | ------------- | ------------- | ------------- |
-| <img src="examples/example_1_outputs/001_ref_image.png" width="240"> | <img src="examples/example_1_outputs/002_aligned_image.png" width="240"> | <img src="examples/example_1_outputs/003_diff_image.png" width="240"> |
+| <img src="examples/example_1_outputs/001_ref_image.png" width="240"> | <img src="examples/example_1_outputs/004_aligned_image.png" width="240"> | <img src="examples/example_1_outputs/005_diff_image.png" width="240"> |
 
 ### Note: ###
 This results were obtained using the lsst.dirac.dev resources (CPU, RAM) and they were calculated in about 8 seconds. Performing the proccesing under the same conditions using ```align()``` and ```diff()``` functions would take about 20 minutes to complete for a slightly more accurate x and y displacement value calculations.
