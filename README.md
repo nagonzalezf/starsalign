@@ -99,7 +99,7 @@ https://github.com/nagonzalezf/starsalign/blob/main/examples/science_image.npy
 
 # Documentation
 
-Documentation is under construction, in the meantime you can check:
+Documentation is under construction, in the meantime check:
 
 SIFT algorithm docs at: https://docs.opencv.org/4.x/da/df5/tutorial_py_sift_intro.html
 
